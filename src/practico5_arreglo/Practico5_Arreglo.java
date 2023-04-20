@@ -15,7 +15,10 @@ public class Practico5_Arreglo {
         String cadena = "contamos todas las vocales";
         Arreglo.cuentaVocales(cadena);
         
-        
+        String cadena2 = "Usando GitHub Desktop";
+        char caracter = 'u';
+        int contadorCaracter = Arreglo.cuentaCaracter(cadena2, caracter);
+        System.out.println("La cantidad de veces que se repite el caracter '" + caracter + "' en la cadena '" + cadena2 + "' es: " + contadorCaracter);
     }
     
 }
