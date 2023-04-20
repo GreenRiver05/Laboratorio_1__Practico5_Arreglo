@@ -33,7 +33,7 @@ public class Arreglo {
         int vocales=0;
         for (int i = 0; i<cadena.length(); i++) {
     
-             if(cadena.equalsIgnoreCase("a")){
+             if(cadena.charAt(i)=='a' || cadena.charAt(i)=='e' ||cadena.charAt(i)=='i' ||cadena.charAt(i)=='o' ||cadena.charAt(i)=='u' ){
                  vocales++;
              }
         } 
