@@ -1,21 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package practico5_arreglo;
 
-/**
- *
- * @author La Maquina
- */
 public class Practico5_Arreglo {
 
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        int[] arreglo = {2,4,6,8,10,12,14};
+        Arreglo.sumarLista(arreglo);
+            
+        
     }
     
 }
