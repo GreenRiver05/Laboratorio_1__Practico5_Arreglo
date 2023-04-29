@@ -3,11 +3,9 @@ package practico5_arreglo;
 public class Arreglo {
 
     public static final String nada = "\u001B[0m";               // se utilizo ANSI escape code, color caractares
-    public static final String rojo = "\u001B[31m";             // se utilizo ANSI escape code, color caractares
     public static final String verde = "\u001B[32m";           // se utilizo ANSI escape code, color caractares
     public static final String amarillo = "\u001B[33m";         // se utilizo ANSI escape code, color caractares
     public static final String celeste = "\u001B[36m";          // se utilizo ANSI escape code, color caractares
-    public static final String negroF = "\u001B[40m";           // se utilizo ANSI escape code, color caractares
 
     static void sumarLista(int[] arreglo) {
         int suma = 0;
